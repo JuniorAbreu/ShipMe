@@ -18,7 +18,6 @@ public class HomeController {
 	@GetMapping("/")
 	public String home(Model model, HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
-		
 		response.setContentType("text/html;charset=UTF-8");
 		HttpSession session = request.getSession();
 		List<String> nomes = (List<String>) session.getAttribute("secao");
