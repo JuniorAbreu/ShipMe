@@ -1,0 +1,10 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Nov 02 12:15:38 BRST 2017
+http\://download.java.net/maven/2/.lastUpdated=1509632138405
+http\://repo1.maven.org/maven2/.error=
+http\://repo1.maven.org/maven2/.lastUpdated=1509632138803
+http\://repository.primefaces.org/.error=
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1502113945982
+http\://download.java.net/maven/2/.error=
+http\://repository.primefaces.org/.lastUpdated=1509632136874
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact com.ibm.db2\:db2jcc4\:jar\:sources\:9.7.0.4 from/to central (https\://repo.maven.apache.org/maven2)\: repo.maven.apache.org
