@@ -25,11 +25,11 @@ public class User {
 	
 	public User() {}
 	
-	public User(Long id, String name, UserType campus) {
+	public User(Long id, String name, UserType type) {
 		super();
 		this.id = id;
 		this.name = name;
-		this.userType = campus;
+		this.userType = type;
 	}
 
 	public Long getId() {

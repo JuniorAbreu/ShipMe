@@ -20,8 +20,9 @@ public class Product {
 	@Column(name = "DESCRIPTION", length = 100, nullable = false)
 	private String description;
 	
-	public Product() {}
-	
+	public Product() {
+		
+	}
 	public Product(Long id, String name, String description) {
 		super();
 		this.id = id;
