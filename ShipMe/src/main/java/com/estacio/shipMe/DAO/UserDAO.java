@@ -30,5 +30,9 @@ public class UserDAO  extends AbstractDAO<User> implements UserRepository {
 	public void delete(User user) {
 		super.delete(user, user.getId());
 	}
+	
+	public User findById(Long id) {
+		return super.findById(id);
+	}
 
 }

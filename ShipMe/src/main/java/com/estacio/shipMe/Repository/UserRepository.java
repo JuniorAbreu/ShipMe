@@ -9,5 +9,6 @@ public interface UserRepository {
 	public User save(User user);
 	public List<User> list();
 	public void delete(User user);
+	public User findById(Long id);
 
 }

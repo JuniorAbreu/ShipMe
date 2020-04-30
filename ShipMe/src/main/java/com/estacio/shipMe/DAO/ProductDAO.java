@@ -30,5 +30,9 @@ public class ProductDAO  extends AbstractDAO<Product> implements ProductReposito
 	public void delete(Product product) {
 		super.delete(product, product.getId());
 	}
+	
+	public Product findById(Long id) {
+		return super.findById(id);
+	}
 
 }

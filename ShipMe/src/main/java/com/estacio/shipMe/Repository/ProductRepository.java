@@ -9,5 +9,6 @@ public interface ProductRepository {
 	public Product save(Product product);
 	public List<Product> list();
 	public void delete(Product product);
+	Product findById(Long id);
 
 }
