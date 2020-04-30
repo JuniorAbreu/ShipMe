@@ -50,7 +50,7 @@
 					                <tr>
 					                	<td> ${product.name}</td>
 					                	<td> ${product.description}</td>
-					                	<td> <span class="cursor-pointer" onclick="edit(${product.id}, '${product.name}', ${product.description})"> Edit</span> <span class="cursor-pointer text-red" onclick="saveProduct(${product.id}, '${product.name}', ${product.description})"> Delete</span></td>
+					                	<td> <span class="cursor-pointer" onclick="edit(${product.id}, '${product.name}', '${product.description}')"> Edit</span> <span class="cursor-pointer text-red" onclick="saveProduct(${product.id}, '${product.name}', '${product.description}')"> Delete</span></td>
 					            	</tr>
 					            </c:forEach>
 					            </tbody>

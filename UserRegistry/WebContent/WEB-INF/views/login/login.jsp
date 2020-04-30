@@ -71,7 +71,7 @@
 					document.getElementById("login-message").classList.add("item-hidden");
 				}
 				alert("Login Sucess");
-				window.location.href = '/userRegistry/';
+				window.location.href = '/ship-me/';
 			});
 			request.fail(function (jqXHR, textStatus) {
 				if (document.getElementById("login-message").classList.contains("item-hidden")) {
