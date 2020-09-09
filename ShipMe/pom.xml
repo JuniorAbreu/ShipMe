@@ -38,7 +38,7 @@
 		<spring.version>5.2.0.RELEASE</spring.version>
 		<springsecurity.version>5.1.7.RELEASE</springsecurity.version>
 		<hibernate.version>5.4.10.Final</hibernate.version>
-		<hibernate.validator>5.4.1.Final</hibernate.validator>
+		<hibernate.validator>5.4.2.Final</hibernate.validator>
 		<c3p0.version>0.9.5.2</c3p0.version>
 		<jstl.version>1.2.1</jstl.version>
 		<tld.version>1.1.2</tld.version>
