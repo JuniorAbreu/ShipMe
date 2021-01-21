@@ -50,7 +50,7 @@
 		<jcc.version>9.7.0.4</jcc.version>
 		<jcc.cisuz.version>3.1.57</jcc.cisuz.version>
 		<sitemesh.version>2.4.2</sitemesh.version>
-		<jackson.version>2.9.1</jackson.version>
+		<jackson.version>2.12.1</jackson.version>
     
 		<local.repository.folder>${pom.basedir}/libs/</local.repository.folder>
 	</properties>
